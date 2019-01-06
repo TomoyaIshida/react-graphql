@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
-import './App.css';
-
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN
+import React, { Component } from 'react'
+import SearchRepositories from './container/SearchRepositories/SearchRepositories'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        Hello React!
-      </div>
-    );
+      <SearchRepositories />
+    )
   }
 }
 
-export default App;
+export default App
